@@ -13,7 +13,11 @@
 <script type="text/javascript" src="plugins/fancyapps-fancyBox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        $(".fancybox").fancybox();
+        //$(".fancybox").fancybox();
+$(".fancybox").fancybox({
+        'width': 815,
+        'type': 'iframe'
+    });		
         $('#buscador').keypress(function(event){
             var keycode = (event.keyCode ? event.keyCode : event.which);
             if(keycode == '13'){
@@ -21,7 +25,6 @@
             }
         });         
     });    
-    $(".fancybox").fancybox();  
    
 </script>
 </head>
