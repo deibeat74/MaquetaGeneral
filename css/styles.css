@@ -901,6 +901,9 @@ table.document-list {
   float: left;
   margin: 0px 20px 15px 0px;
 }
+.post-card.post-card-4 .post-multimedia.video {
+  width: auto;
+}
 .post-card.post-card-4 .post-multimedia img {
   width: 100%;
   border: 1px solid #F3EFEF;
